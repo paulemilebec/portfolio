@@ -8,7 +8,7 @@ const ScoutingSection: React.FC = () => {
         <Users className="w-16 h-16 text-blue-600 mx-auto mb-4" />
         <h1 className="text-3xl font-bold text-gray-900 mb-4">Engagement scout</h1>
         <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-        D'abord 3 ans en tant que scout puis 3 ans en tant que chef le scoutisme est un engagement exigeant qui amène parfois a voyager sur d'autres continents...        </p>
+        D'abord 3 ans en tant que scout puis 3 ans en tant que chef, le scoutisme est un engagement exigeant qui amène parfois a voyager sur d'autres continents...        </p>
       </div>
 
       <div className="grid md:grid-cols-2 gap-8">

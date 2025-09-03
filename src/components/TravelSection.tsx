@@ -1,6 +1,10 @@
 import React from 'react';
 import { MapPin, Camera, Globe, Star } from 'lucide-react';
 
+
+
+
+
 const TravelSection: React.FC = () => {
   const countries = [
     { name: 'Espagne', city: 'Barcelone', year: '2022', image: 'https://images.pexels.com/photos/1388030/pexels-photo-1388030.jpeg?auto=compress&cs=tinysrgb&w=400' },
