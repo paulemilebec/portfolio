@@ -54,17 +54,7 @@ const HomePage: React.FC = () => {
         <h2 className="text-2xl font-bold text-gray-900 mb-6">À propos de moi</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <div>
-            <p className="text-gray-700 mb-4 leading-relaxed">
-              Pour ma première année de cycle ingénieur, je cherche une alternance : <br />
-              📅 <strong>Quand ?<br /></strong> 
-              A partir de septembre 2025 <br />
-              🌍 <strong>Où ? <br /></strong>
-              Nantes, Paris, Rouen, Bordeaux, Rennes, Lyon … <br />
-              💻 <strong>Les domaines informatiques concernés sont :</strong> <br />
-              - le développement (logiciel, web, mobile) <br />
-              - les algorithmes et structures de données <br />
-              - les systèmes <br />
-            </p>
+
             <p className="text-gray-700 leading-relaxed">
               La <strong>musique</strong> m'a appris la rigueur et la persévérance, les <strong>voyages </strong> 
               ont développé ma curiosité culturelle, le <strong>scoutisme</strong> mon sens du leadership, 

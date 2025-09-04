@@ -12,11 +12,11 @@ function App() {
 
   const navigation = [
     { id: 'home', label: 'Accueil', icon: Home },
+    { id: 'academic', label: 'Parcours', icon: GraduationCap },
     { id: 'music', label: 'Musique', icon: Music },
     { id: 'travel', label: 'Voyages', icon: MapPin },
     { id: 'scouting', label: 'Scoutisme', icon: Users },
-    { id: 'sports', label: 'Sport', icon: Trophy },
-    { id: 'academic', label: 'Parcours', icon: GraduationCap }
+    { id: 'sports', label: 'Sport', icon: Trophy }
   ];
 
   const renderContent = () => {
@@ -71,25 +71,32 @@ function App() {
               <a
                 href="https://www.linkedin.com/in/paul-emile-becquart-297192308/"
                 className="text-gray-600 hover:text-blue-600 transition-colors"
-                title="LinkedIn"
-              >
+                title="LinkedIn">
                 <Linkedin className="w-5 h-5" />
               </a>
               <a
                 href="https://github.com/paulemilebec"
                 className="text-gray-600 hover:text-blue-600 transition-colors"
-                title="GitHub"
-              >
+                title="GitHub">
                 <Github className="w-5 h-5" />
               </a>
               <a
                 href="mailto:paulemilebecquart@gmail.com"
                 className="text-gray-600 hover:text-blue-600 transition-colors"
-                title="Email"
-              >
+                title="Email">
                 <Mail className="w-5 h-5" />
               </a>
-              <button className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm font-medium flex items-center space-x-2 transition-colors">
+  
+              <button 
+                onClick={() => {
+                  const link = document.createElement('a');
+                  link.href = '../assets/pdf/BECQUART Paul-Emile.pdf';  
+                  {/* link.download = 'Lettre_de_motivation.pdf'; */}
+                  link.click();
+
+                }}
+                className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm font-medium flex items-center space-x-2 transition-colors"
+              >
                 <Download className="w-4 h-4" />
                 <span className="hidden sm:inline">CV</span>
               </button>
